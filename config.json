@@ -1,0 +1,7 @@
+{
+  "clientId": "__CLIENTID__",
+  "oauthServerUrl": "__OAUTHSERVEURL__",
+  "profilesUrl": "__PROFILESURL__",
+  "secret": "__SECRET__",
+  "tenantId": "__TENANTID__"
+}

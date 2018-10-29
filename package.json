@@ -1,0 +1,23 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "App ID Sample Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Graham White",
+  "license": "MIT",
+  "dependencies": {
+    "cfenv": "1.1.0",
+    "cors": "2.8.4",
+    "express": "4.16.4",
+    "express-enforces-ssl": "1.1.0",
+    "express-session": "1.15.6",
+    "ibmcloud-appid": "4.2.1",
+    "log4js": "3.0.6",
+    "nconf": "0.10.0",
+    "passport": "0.4.0"
+  }
+}
