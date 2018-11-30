@@ -22,7 +22,7 @@ This server is based heavily upon the one used in the [Securing Angular+Node.js 
   - Go to Service Credentials in the left menu
   - Click the "New Credential+" button
   - Leave the defaults (name, reader role, service ID, inline configuration) and click the "Add" button
-  - Click the twisty to expand the credentials and plumb those into the `config.js` file
+  - Click the twisty to expand the credentials and plumb those into the `config.json` file
 
 
 3. Add a web redirect URL to App ID
