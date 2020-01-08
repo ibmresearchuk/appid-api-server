@@ -127,7 +127,7 @@ function getLocalConfig() {
 	}
 	let config = {};
 	const localConfig = nconf.env().file(`${__dirname}/config.json`).get();
-	const requiredParams = ['clientId', 'secret', 'tenantId', 'oauthServerUrl', 'profilesUrl'];
+	const requiredParams = ['clientId', 'secret', 'tenantId', 'oAuthServerUrl', 'profilesUrl'];
 	requiredParams.forEach(function (requiredParam) {
 		if (!localConfig[requiredParam]) {
 			console.error('When running locally, make sure to create a file *config.json* in the root directory. See config.template.json for an example of a configuration file.');
